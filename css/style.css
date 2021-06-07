@@ -1,0 +1,176 @@
+*{
+   margin: 0;
+}
+
+body{
+    padding-bottom: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(to bottom, #17735A, #26BF96);
+    background-attachment: fixed;
+}
+
+.container_header{
+    display: flex;
+    background-color: #17735A;
+    text-align: center;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.container_main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.container_main_form{
+    display: flex;
+    flex-direction: column;
+    background-color: #26bf9667;
+    padding: 10px;
+    text-align: left;
+    color: #FFF;
+    width: 15.6%;
+    margin: 0 10px 0 10px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.082), 0 7px 5px 0 rgba(0, 0, 0, 0.103);
+}
+
+.container_main_form label{
+    margin-left: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 1.0em;
+}
+
+.container_main_form input, select{
+   height: 30px;
+   border: 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+   box-sizing: border-box;
+   font-size: 1em;
+   width: 300px;
+}
+
+.botaoSalvar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container_main_form button{
+    margin-top: 10px;
+    width: 50%;
+    background-color: #17735A;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+
+#salvarUsuarios{
+    margin-top: 10px;
+    width: 50%;
+    background-color: #17735A;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    font-size: 1.2em;
+}
+
+.container_main_form button:hover {
+    background-color: #17735abe;
+}
+
+#salvarUsuarios:hover{
+    background-color: #17735abe;
+}
+
+#btnComplement{
+    width: 110px;
+    height: 25px;
+    padding: 0;
+    font-size: 0.8em;
+}
+
+/* Controle da Tabela */
+.container_main_table{
+    background-color: #26bf9667;
+    color: #FFF;
+    width: 70%;
+    margin-right: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.082), 0 7px 5px 0 rgba(0, 0, 0, 0.103);
+    overflow-y: scroll;
+    height: 670px;
+}
+
+.container_main_table h1{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.container_main_table table{
+    font-size: 0.8em;   
+}
+
+/* Cabeça-lho */
+.container_main_table table th {
+    width: 100px;
+    text-align: left;
+    background-color: #17735A;
+    color: #FFF;
+    padding: 8px 8px 8px 8px;
+}
+
+/* Linhas */
+.container_main_table table tr:hover td{
+    background-color: #1FC299 !important;
+}
+
+/* TD - Colunas (Dados) */
+.container_main_table table td{
+    background-color: #17735a2f;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    text-align: left;
+}
+
+.container_main_table img{
+    cursor: pointer;
+}
+
+/* DIV criada dinâmicamente */
+#divImg{
+    display: flex;
+    justify-content: center;
+}
+
+#colunaAcoes{
+    text-align: center;
+}
+
+/* Fim Controle da Tabela */
+
+.container_footer{
+    background-color:#17735A;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: #FFF;
+}
